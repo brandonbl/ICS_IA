@@ -1,0 +1,248 @@
+Le he mandado a chatgpt esto:
+Necesito que me hagas un prompt para hacer una pagina web sobre coches con las siguientes instrucciones: Inicialmente buscaremos diseños sencillos que no utilicen *frameworks* CSS como Tailwind o Bootstrap, es decir, que solamente utilicen código HTML y CSS.  IMPORTANTE: Has de hacerla con HTML y CSS puro. Dicho prompt se lo voy a mandar a stich, la IA  o kimi. 
+
+Chatgpt me ha dicho esto:
+Quiero que diseñes y desarrolles una página web moderna sobre **coches**, utilizando **EXCLUSIVAMENTE HTML5 y CSS3 puro**.
+
+### REQUISITOS IMPORTANTES
+
+* NO utilizar Tailwind CSS.
+* NO utilizar Bootstrap.
+* NO utilizar Bulma, Materialize ni ningún otro framework CSS.
+* NO utilizar JavaScript, salvo que sea absolutamente imprescindible para alguna funcionalidad básica.
+* Todo el diseño visual debe estar realizado con **HTML y CSS puro**.
+* El código debe ser sencillo, limpio y fácil de entender para un estudiante de 1º de DAW.
+* No quiero código innecesariamente complejo.
+* Utiliza HTML semántico (`header`, `nav`, `main`, `section`, `article`, `footer`, etc.).
+* Utiliza CSS externo en un archivo `style.css`.
+* La página debe ser responsive y adaptarse correctamente a ordenador, tablet y móvil.
+
+### TEMÁTICA
+
+La página estará dedicada al mundo del automóvil. Quiero un diseño moderno, elegante y deportivo, pero sin ser excesivamente complicado.
+
+El nombre de la web será:
+
+**CARZONE**
+
+Como subtítulo puede aparecer:
+
+**"Pasión por los coches"**
+
+### ESTRUCTURA DE LA PÁGINA
+
+#### 1. CABECERA
+
+Crear una cabecera (`header`) con:
+
+* Logo o nombre "CARZONE".
+* Menú de navegación.
+* Enlaces:
+
+  * Inicio
+  * Coches
+  * Marcas
+  * Noticias
+  * Contacto
+
+El menú debe ser sencillo y estar bien alineado.
+
+#### 2. HERO / PORTADA
+
+Crear una sección principal llamativa con:
+
+* Una imagen grande de un coche deportivo.
+* Título grande:
+  **"Descubre el mundo del automóvil"**
+* Texto breve explicando que la web permite conocer diferentes coches, marcas y características.
+* Un botón:
+  **"Ver coches"**
+
+El diseño debe tener una apariencia moderna y deportiva.
+
+#### 3. SECCIÓN "COCHES DESTACADOS"
+
+Crear una sección titulada:
+
+**"Coches destacados"**
+
+Mostrar varias tarjetas de coches, por ejemplo:
+
+* BMW M4
+* Audi RS6
+* Mercedes-AMG GT
+* Porsche 911
+* Nissan GT-R
+* Ford Mustang
+
+Cada tarjeta debe incluir:
+
+* Imagen del coche.
+* Nombre.
+* Marca.
+* Tipo de motor.
+* Potencia.
+* Precio aproximado.
+* Botón "Ver detalles".
+
+Las tarjetas deben estar organizadas mediante **CSS Grid o Flexbox**, sin utilizar ningún framework.
+
+#### 4. SECCIÓN DE MARCAS
+
+Crear una sección llamada:
+
+**"Marcas populares"**
+
+Mostrar diferentes marcas:
+
+* BMW
+* Audi
+* Mercedes-Benz
+* Porsche
+* Ferrari
+* Lamborghini
+* Ford
+* Toyota
+
+Cada marca puede aparecer dentro de una tarjeta sencilla con su nombre y una pequeña descripción.
+
+#### 5. SECCIÓN "¿QUÉ BUSCAS?"
+
+Crear una sección visual con tres opciones:
+
+* 🚗 Deportivos
+* 🏎️ Superdeportivos
+* 🚙 SUV
+
+Cada opción debe ser una tarjeta con una imagen y un pequeño texto.
+
+#### 6. SECCIÓN DE NOTICIAS
+
+Crear una sección:
+
+**"Últimas noticias del mundo del motor"**
+
+Incluir 3 noticias ficticias relacionadas con coches.
+
+Cada noticia debe tener:
+
+* Imagen.
+* Título.
+* Fecha.
+* Pequeña descripción.
+* Enlace "Leer más".
+
+#### 7. SECCIÓN DE CONTACTO
+
+Crear una sección sencilla de contacto con:
+
+* Nombre
+* Correo electrónico
+* Mensaje
+* Botón "Enviar"
+
+El formulario no necesita funcionar realmente; solamente quiero el diseño visual.
+
+#### 8. FOOTER
+
+Crear un pie de página con:
+
+* CARZONE
+* "Pasión por los coches"
+* Enlaces rápidos.
+* Copyright.
+* Redes sociales como texto o iconos sencillos.
+
+### DISEÑO VISUAL
+
+Quiero un estilo:
+
+* Moderno.
+* Deportivo.
+* Elegante.
+* Oscuro, pero con buena legibilidad.
+* Con fondo principalmente oscuro.
+* Utilizar blanco/gris para los textos.
+* Utilizar un color de acento como rojo para botones, enlaces y detalles.
+* Bordes ligeramente redondeados.
+* Sombras suaves.
+* Espaciado amplio.
+* Tipografía moderna y fácil de leer.
+
+No hagas el diseño excesivamente complejo. Debe parecer una página web profesional pero ser suficientemente sencilla para que un estudiante de 1º DAW pueda entender el código.
+
+### EFECTOS CSS
+
+Utiliza únicamente CSS para los efectos visuales.
+
+Puedes incluir:
+
+* `hover` en botones.
+* `hover` en tarjetas.
+* Transiciones suaves.
+* Pequeños efectos de escala al pasar el ratón por encima de las imágenes.
+* Sombras.
+* Cambios de color.
+
+NO utilizar JavaScript para estos efectos.
+
+### RESPONSIVE
+
+La página debe adaptarse correctamente a:
+
+* Ordenadores.
+* Tablets.
+* Móviles.
+
+Utiliza `@media` queries de CSS para modificar el diseño en pantallas pequeñas.
+
+Por ejemplo:
+
+* El menú debe adaptarse en móvil.
+* Las tarjetas deben pasar de varias columnas a una sola.
+* Las imágenes deben mantener proporciones correctas.
+* Los textos deben reducir ligeramente su tamaño.
+
+### ARCHIVOS
+
+Quiero que generes como mínimo:
+
+```text
+index.html
+style.css
+```
+
+El archivo `index.html` debe enlazar correctamente con `style.css`.
+
+Si necesitas imágenes, utiliza imágenes externas mediante URLs de imágenes libres de uso o utiliza imágenes de ejemplo, pero NO dependas de JavaScript ni de frameworks.
+
+### IMPORTANTE SOBRE EL CÓDIGO
+
+Quiero que el código:
+
+* Sea limpio.
+* Esté bien indentado.
+* Tenga comentarios HTML y CSS en las partes importantes.
+* Utilice nombres de clases fáciles de entender.
+* No tenga código innecesario.
+* Sea apropiado para un estudiante de 1º DAW.
+* Utilice HTML5 semántico.
+* Utilice CSS Grid/Flexbox cuando sea necesario.
+* No utilice frameworks.
+
+Antes de entregar el resultado, comprueba que:
+
+1. `index.html` enlaza correctamente con `style.css`.
+2. No se utiliza Bootstrap.
+3. No se utiliza Tailwind.
+4. No se utilizan otros frameworks CSS.
+5. El diseño funciona correctamente en ordenador y móvil.
+6. Todas las secciones están correctamente estructuradas.
+7. Los botones, enlaces y tarjetas tienen efectos `hover` realizados únicamente con CSS.
+
+Quiero que el resultado final tenga aspecto de una **web real de coches**, pero manteniendo un código sencillo y comprensible.
+
+Y he añadidio esto:
+ademas añade estas reglas Guarda el código HTML y CSS de la página (en archivos distintos) y otros recursos que hayas utilizados.
+
+- Añade un programa Javascript que al hacer clic sobre cada una de las tres tarjetas nos muestre un mensaje con la descripción de la misma.

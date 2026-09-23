@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CARZONE | Pasión por los coches</title>
+<!-- Enlace al archivo CSS externo style.css especificado en el enunciado -->
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<!-- BEGIN: MainHeader -->
+<!-- Cabecera principal con logotipo y navegación ancla -->
+<header class="header-principal" data-purpose="header-section">
+<div class="header-contenedor">
+<div class="logo-contenedor">
+<a aria-label="Inicio CARZONE" class="logo-marca" href="#inicio">
+          CAR<span>ZONE</span>
+</a>
+<span class="logo-eslogan">Pasión por los coches</span>
+</div>
+<!-- Navegación por anclas solicitada -->
+<nav aria-label="Menú principal">
+<ul class="menu-navegacion">
+<li><a class="menu-enlace" href="#inicio">Inicio</a></li>
+<li><a class="menu-enlace" href="#que-buscas">¿Qué buscas?</a></li>
+<li><a class="menu-enlace" href="#coches">Coches</a></li>
+<li><a class="menu-enlace" href="#marcas">Marcas</a></li>
+<li><a class="menu-enlace" href="#noticias">Noticias</a></li>
+<li><a class="menu-enlace" href="#contacto">Contacto</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<!-- END: MainHeader -->
+<main>
+<!-- BEGIN: HeroSection -->
+<!-- Hero con imagen de fondo, textos y llamada a la acción -->
+<section class="hero" data-purpose="hero-banner" id="inicio">
+<div class="hero-contenido">
+<span class="hero-badge">Pasión por los coches</span>
+<h1 class="hero-titulo">Descubre el mundo del automóvil</h1>
+<p class="hero-texto">
+          Explora los modelos más exclusivos, conoce las características de tus marcas favoritas, sumérgete en la tecnología de vanguardia y mantente informado con las últimas novedades del mundo del motor.
+        </p>
+<a class="boton-primario" href="#coches">Ver coches</a>
+</div>
+</section>
+<!-- END: HeroSection -->
+<!-- BEGIN: SearchCategorySection -->
+<!-- Tres tarjetas interactivas de búsqueda: Deportivos, Superdeportivos y SUV -->
+<section class="seccion seccion-oscura" data-purpose="categories-section" id="que-buscas">
+<div class="seccion-encabezado">
+<span class="seccion-subtitulo">Categorías</span>
+<h2 class="seccion-titulo">¿Qué tipo de coche buscas?</h2>
+<p class="seccion-descripcion">Selecciona tu estilo de conducción favorito y conoce las características que definen cada categoría.</p>
+</div>
+<div class="contenedor-tarjetas-busqueda">
+<!-- Tarjeta 1: Deportivos -->
+<article class="tarjeta-busqueda" data-purpose="category-card">
+<div class="tarjeta-imagen-wrapper">
+<img alt="Sleek modern red luxury sports car speeding at night on a wet urban road with neon reflections, cinematic lighting, photorealistic, 4k" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB3N9-T-W4mBVsyND8PDgGi4ynGgBtWrR-kvIAOh3_YDGnhsWkEFONnDybFCHvd8Uvbpw-zZu-8rZE1U-KnejVo0_cFA1AOuu5DrDpTdGbRtCcR6UGuqA5t9cmDHjiQZ76UdjM5qUVG1UUdGbpffsD_ZPsEv9imVXj35S6Cnoaw0BnXamBem0Cn-L-1TpqXf58aDPQ1Gm9A8YOc6VQhMgbDdnn0JnbnSXo3AeiY_2yMqd4zH_4p5iOT"/>
+</div>
+<div class="tarjeta-busqueda-cuerpo">
+<h3>Deportivos</h3>
+<p>Coches diseñados para ofrecer una conducción dinámica, buenas prestaciones y una experiencia de conducción emocionante.</p>
+<div class="tarjeta-indicacion">
+              Haz clic para saber más →
+            </div>
+</div>
+</article>
+<!-- Tarjeta 2: Superdeportivos -->
+<article class="tarjeta-busqueda" data-purpose="category-card">
+<div class="tarjeta-imagen-wrapper">
+<img alt="Exotic futuristic supercar hypercar in dark studio with red and silver ambient rim lighting, sleek aerodynamic profile" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-g-RI6_3f9OBNkY4HPYQNDOU_XJpO_yRg0_Aldyl20S-UKZLimoe2q7nognaOjpUDEIDsUORoJNg9Hxke6IW1R4GTgzidgYIJZeihze5GcMAdJy6Q9bRguxka9paoIAYbilwEWgN9vsyYU09NdkuCq7mVhK9fNxm6zhjLeMw93TfMh-hHzmTBvV4oKPSJrRlBWuDcKVYy-rims9SeQwqjtrfQZe7ylWHGkbZwlptXNylnImj5oUzC"/>
+</div>
+<div class="tarjeta-busqueda-cuerpo">
+<h3>Superdeportivos</h3>
+<p>Vehículos de altas prestaciones caracterizados por su gran potencia, aceleración, diseño y tecnología.</p>
+<div class="tarjeta-indicacion">
+              Haz clic para saber más →
+            </div>
+</div>
+</article>
+<!-- Tarjeta 3: SUV -->
+<article class="tarjeta-busqueda" data-purpose="category-card">
+<div class="tarjeta-imagen-wrapper">
+<img alt="Modern premium luxury performance SUV in mountain highway at dusk, sleek dark paint, high resolution automotive photo" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDINt9S-NcTX5Wc9Ed9l5qM5Tfxu3IVFBjgj7MUQjJETifLd5YJgIrZVPmqAdrbCRtQNFknnUz7-BpLUrFJdFlPEoQW-5UkXmWr91DdW8ozOyGYUB8hoKfGcztN5MKpz6aICLAY6W2Gxxz7D0B3F8kPeWPm5D0wMai2G8KO6pCRK6zcLr3siYa9QATQr0uIxedoIGsQdzxCrpekKz7-TyRfLLKqit_ulWGcwyPi3DMJxnatTPBYAoty"/>
+</div>
+<div class="tarjeta-busqueda-cuerpo">
+<h3>SUV</h3>
+<p>Vehículos que combinan espacio, comodidad, altura de conducción y versatilidad para diferentes tipos de desplazamientos.</p>
+<div class="tarjeta-indicacion">
+              Haz clic para saber más →
+            </div>
+</div>
+</article>
+</div>
+</section>
+<!-- END: SearchCategorySection -->
+<!-- BEGIN: FeaturedCarsSection -->
+<!-- Grid con los 6 coches destacados con datos técnicos exactos -->
+<section class="seccion" data-purpose="featured-cars-section" id="coches">
+<div class="seccion-encabezado">
+<span class="seccion-subtitulo">Catálogo</span>
+<h2 class="seccion-titulo">Coches destacados</h2>
+<p class="seccion-descripcion">Ingeniería pura, aceleración extrema y el máximo refinamiento en cada curva.</p>
+</div>
+<div class="grid-coches">
+<!-- Coche 1: BMW M4 -->
+<article class="tarjeta-coche">
+<div class="tarjeta-imagen-wrapper">
+<img alt="Modern sports coupe car BMW style driving on asphalt track, dynamic angle, dramatic lighting, clean automotive photography" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAGm7r31qWzElN93z_xdgm5eYSbgMGt6yMPg-zU_iWX5Xjc3GptOQkvHcv4HsrOEs0YWg0WxKCxLb3TpuEDio8d8s1aqDSVp0k0GIL-MM0euy66bUaP_JEqhL-ae__VyFkxi1oqOWajuYgSKWHIFC5_Hqa5w-K1msgElDNC5pAbw8HuRSlDvgRh4Dm6X1ih2xjRP2j5YdLZ486B9Tq7ZFE363WoxXFSTN_yvN22Xgxp-iIKZx3jQuf6"/>
+</div>
+<div class="tarjeta-coche-contenido">
+<div class="tarjeta-coche-header">
+<h3 class="tarjeta-coche-titulo">BMW M4</h3>
+<span class="tarjeta-coche-precio">115.000 €</span>
+</div>
+<ul class="tarjeta-coche-especificaciones">
+<li class="especificacion-item"><span>Potencia:</span> <strong>510 CV</strong></li>
+<li class="especificacion-item"><span>Motor:</span> <strong>Gasolina 3.0L Biturbo</strong></li>
+</ul>
+<a class="boton-coche" href="#contacto">Ver detalles</a>
+</div>
+</article>
+<!-- Coche 2: Audi RS6 -->
+<article class="tarjeta-coche">
+<div class="tarjeta-imagen-wrapper">
+<img alt="Sleek modern red luxury sports car speeding at night on a wet urban road with neon reflections, cinematic lighting, photorealistic, 4k" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB3N9-T-W4mBVsyND8PDgGi4ynGgBtWrR-kvIAOh3_YDGnhsWkEFONnDybFCHvd8Uvbpw-zZu-8rZE1U-KnejVo0_cFA1AOuu5DrDpTdGbRtCcR6UGuqA5t9cmDHjiQZ76UdjM5qUVG1UUdGbpffsD_ZPsEv9imVXj35S6Cnoaw0BnXamBem0Cn-L-1TpqXf58aDPQ1Gm9A8YOc6VQhMgbDdnn0JnbnSXo3AeiY_2yMqd4zH_4p5iOT"/>
+</div>
+<div class="tarjeta-coche-contenido">
+<div class="tarjeta-coche-header">
+<h3 class="tarjeta-coche-titulo">Audi RS6</h3>
+<span class="tarjeta-coche-precio">148.000 €</span>
+</div>
+<ul class="tarjeta-coche-especificaciones">
+<li class="especificacion-item"><span>Potencia:</span> <strong>600 CV</strong></li>
+<li class="especificacion-item"><span>Motor:</span> <strong>V8 4.0L TFSI</strong></li>
+</ul>
+<a class="boton-coche" href="#contacto">Ver detalles</a>
+</div>
+</article>
+<!-- Coche 3: Mercedes-AMG GT -->
+<article class="tarjeta-coche">
+<div class="tarjeta-imagen-wrapper">
+<img alt="Exotic futuristic supercar hypercar in dark studio with red and silver ambient rim lighting, sleek aerodynamic profile" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-g-RI6_3f9OBNkY4HPYQNDOU_XJpO_yRg0_Aldyl20S-UKZLimoe2q7nognaOjpUDEIDsUORoJNg9Hxke6IW1R4GTgzidgYIJZeihze5GcMAdJy6Q9bRguxka9paoIAYbilwEWgN9vsyYU09NdkuCq7mVhK9fNxm6zhjLeMw93TfMh-hHzmTBvV4oKPSJrRlBWuDcKVYy-rims9SeQwqjtrfQZe7ylWHGkbZwlptXNylnImj5oUzC"/>
+</div>
+<div class="tarjeta-coche-contenido">
+<div class="tarjeta-coche-header">
+<h3 class="tarjeta-coche-titulo">Mercedes-AMG GT</h3>
+<span class="tarjeta-coche-precio">190.000 €</span>
+</div>
+<ul class="tarjeta-coche-especificaciones">
+<li class="especificacion-item"><span>Potencia:</span> <strong>585 CV</strong></li>
+<li class="especificacion-item"><span>Motor:</span> <strong>4.0L V8 Biturbo</strong></li>
+</ul>
+<a class="boton-coche" href="#contacto">Ver detalles</a>
+</div>
+</article>
+<!-- Coche 4: Porsche 911 GT3 -->
+<article class="tarjeta-coche">
+<div class="tarjeta-imagen-wrapper">
+<img alt="Modern sports coupe car BMW style driving on asphalt track, dynamic angle, dramatic lighting, clean automotive photography" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAGm7r31qWzElN93z_xdgm5eYSbgMGt6yMPg-zU_iWX5Xjc3GptOQkvHcv4HsrOEs0YWg0WxKCxLb3TpuEDio8d8s1aqDSVp0k0GIL-MM0euy66bUaP_JEqhL-ae__VyFkxi1oqOWajuYgSKWHIFC5_Hqa5w-K1msgElDNC5pAbw8HuRSlDvgRh4Dm6X1ih2xjRP2j5YdLZ486B9Tq7ZFE363WoxXFSTN_yvN22Xgxp-iIKZx3jQuf6"/>
+</div>
+<div class="tarjeta-coche-contenido">
+<div class="tarjeta-coche-header">
+<h3 class="tarjeta-coche-titulo">Porsche 911 GT3</h3>
+<span class="tarjeta-coche-precio">220.000 €</span>
+</div>
+<ul class="tarjeta-coche-especificaciones">
+<li class="especificacion-item"><span>Potencia:</span> <strong>510 CV</strong></li>
+<li class="especificacion-item"><span>Motor:</span> <strong>4.0L Bóxer Atmosférico</strong></li>
+</ul>
+<a class="boton-coche" href="#contacto">Ver detalles</a>
+</div>
+</article>
+<!-- Coche 5: Nissan GT-R Nismo -->
+<article class="tarjeta-coche">
+<div class="tarjeta-imagen-wrapper">
+<img alt="Exotic futuristic supercar hypercar in dark studio with red and silver ambient rim lighting, sleek aerodynamic profile" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-g-RI6_3f9OBNkY4HPYQNDOU_XJpO_yRg0_Aldyl20S-UKZLimoe2q7nognaOjpUDEIDsUORoJNg9Hxke6IW1R4GTgzidgYIJZeihze5GcMAdJy6Q9bRguxka9paoIAYbilwEWgN9vsyYU09NdkuCq7mVhK9fNxm6zhjLeMw93TfMh-hHzmTBvV4oKPSJrRlBWuDcKVYy-rims9SeQwqjtrfQZe7ylWHGkbZwlptXNylnImj5oUzC"/>
+</div>
+<div class="tarjeta-coche-contenido">
+<div class="tarjeta-coche-header">
+<h3 class="tarjeta-coche-titulo">Nissan GT-R Nismo</h3>
+<span class="tarjeta-coche-precio">125.000 €</span>
+</div>
+<ul class="tarjeta-coche-especificaciones">
+<li class="especificacion-item"><span>Potencia:</span> <strong>600 CV</strong></li>
+<li class="especificacion-item"><span>Motor:</span> <strong>3.8L V6 Twin-Turbo</strong></li>
+</ul>
+<a class="boton-coche" href="#contacto">Ver detalles</a>
+</div>
+</article>
+<!-- Coche 6: Aston Martin DBX -->
+<article class="tarjeta-coche">
+<div class="tarjeta-imagen-wrapper">
+<img alt="Modern premium luxury performance SUV in mountain highway at dusk, sleek dark paint, high resolution automotive photo" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDINt9S-NcTX5Wc9Ed9l5qM5Tfxu3IVFBjgj7MUQjJETifLd5YJgIrZVPmqAdrbCRtQNFknnUz7-BpLUrFJdFlPEoQW-5UkXmWr91DdW8ozOyGYUB8hoKfGcztN5MKpz6aICLAY6W2Gxxz7D0B3F8kPeWPm5D0wMai2G8KO6pCRK6zcLr3siYa9QATQr0uIxedoIGsQdzxCrpekKz7-TyRfLLKqit_ulWGcwyPi3DMJxnatTPBYAoty"/>
+</div>
+<div class="tarjeta-coche-contenido">
+<div class="tarjeta-coche-header">
+<h3 class="tarjeta-coche-titulo">Aston Martin DBX</h3>
+<span class="tarjeta-coche-precio">210.000 €</span>
+</div>
+<ul class="tarjeta-coche-especificaciones">
+<li class="especificacion-item"><span>Potencia:</span> <strong>550 CV</strong></li>
+<li class="especificacion-item"><span>Motor:</span> <strong>4.0L V8 Twin-Turbo</strong></li>
+</ul>
+<a class="boton-coche" href="#contacto">Ver detalles</a>
+</div>
+</article>
+</div>
+</section>
+<!-- END: FeaturedCarsSection -->
+<!-- BEGIN: PopularBrandsSection -->
+<!-- 8 tarjetas de marcas populares con iconos vectoriales SVG -->
+<section class="seccion seccion-oscura" data-purpose="brands-section" id="marcas">
+<div class="seccion-encabezado">
+<span class="seccion-subtitulo">Fabricantes</span>
+<h2 class="seccion-titulo">Marcas populares</h2>
+<p class="seccion-descripcion">Las firmas legendarias que han transformado para siempre la historia y el rendimiento del automóvil.</p>
+</div>
+<div class="grid-marcas">
+<!-- Marca 1: BMW -->
+<div class="tarjeta-marca">
+<div class="marca-icono-circulo">
+<svg fill="none" height="30" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="30">
+<circle cx="12" cy="12" r="10"></circle>
+<line x1="12" x2="12" y1="2" y2="22"></line>
+<line x1="2" x2="22" y1="12" y2="12"></line>
+</svg>
+</div>
+<h3>BMW</h3>
+<p>Innovación bávara, dinamismo sobresaliente y puro placer al volante.</p>
+</div>
+<!-- Marca 2: Audi -->
+<div class="tarjeta-marca">
+<div class="marca-icono-circulo">
+<svg fill="none" height="30" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="30">
+<circle cx="7" cy="12" r="4"></circle>
+<circle cx="12" cy="12" r="4"></circle>
+<circle cx="17" cy="12" r="4"></circle>
+</svg>
+</div>
+<h3>Audi</h3>
+<p>A la vanguardia de la técnica, tracción quattro y acabados de lujo.</p>
+</div>
+<!-- Marca 3: Mercedes-Benz -->
+<div class="tarjeta-marca">
+<div class="marca-icono-circulo">
+<svg fill="none" height="30" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="30">
+<circle cx="12" cy="12" r="10"></circle>
+<line x1="12" x2="12" y1="12" y2="2"></line>
+<line x1="12" x2="3.3" y1="12" y2="17"></line>
+<line x1="12" x2="20.7" y1="12" y2="17"></line>
+</svg>
+</div>
+<h3>Mercedes-Benz</h3>
+<p>El estándar dorado del prestigio, elegancia ejecutiva y potencia AMG.</p>
+</div>
+<!-- Marca 4: Porsche -->
+<div class="tarjeta-marca">
+<div class="marca-icono-circulo">
+<svg fill="none" height="30" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="30">
+<path d="M12 2L4 7v10l8 5 8-5V7l-8-5z"></path>
+<path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+</svg>
+</div>
+<h3>Porsche</h3>
+<p>Precisión milimétrica alemana nacida en los circuitos de competición.</p>
+</div>
+<!-- Marca 5: Ferrari -->
+<div class="tarjeta-marca">
+<div class="marca-icono-circulo">
+<svg fill="none" height="30" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="30">
+<polygon points="12 2 15 8.5 22 9.5 17 14.5 18.5 21.5 12 18 5.5 21.5 7 14.5 2 9.5 9 8.5 12 2"></polygon>
+</svg>
+</div>
+<h3>Ferrari</h3>
+<p>La máxima expresión de la pasión italiana, diseño sensual y herencia en F1.</p>
+</div>
+<!-- Marca 6: Lamborghini -->
+<div class="tarjeta-marca">
+<div class="marca-icono-circulo">
+<svg fill="none" height="30" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="30">
+<polygon points="12 2 22 8.5 18 20 6 20 2 8.5 12 2"></polygon>
+</svg>
+</div>
+<h3>Lamborghini</h3>
+<p>Diseños angulares radicales y motores V10 y V12 de sonido inconfundible.</p>
+</div>
+<!-- Marca 7: Ford -->
+<div class="tarjeta-marca">
+<div class="marca-icono-circulo">
+<svg fill="none" height="30" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="30">
+<ellipse cx="12" cy="12" rx="10" ry="6"></ellipse>
+<path d="M8 12c1.5-2 3.5-2 5 0"></path>
+</svg>
+</div>
+<h3>Ford</h3>
+<p>Potencia americana icónica personificada en la leyenda del Mustang.</p>
+</div>
+<!-- Marca 8: Toyota -->
+<div class="tarjeta-marca">
+<div class="marca-icono-circulo">
+<svg fill="none" height="30" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="30">
+<ellipse cx="12" cy="12" rx="10" ry="6"></ellipse>
+<ellipse cx="12" cy="10" rx="6" ry="4"></ellipse>
+<ellipse cx="12" cy="12" rx="2" ry="4"></ellipse>
+</svg>
+</div>
+<h3>Toyota</h3>
+<p>Fiabilidad legendaria, tecnología híbrida líder y pasión deportiva con Gazoo Racing.</p>
+</div>
+</div>
+</section>
+<!-- END: PopularBrandsSection -->
+<!-- BEGIN: NewsSection -->
+<!-- Sección de noticias ficticias -->
+<section class="seccion" data-purpose="news-section" id="noticias">
+<div class="seccion-encabezado">
+<span class="seccion-subtitulo">Actualidad</span>
+<h2 class="seccion-titulo">Últimas noticias del mundo del motor</h2>
+<p class="seccion-descripcion">Mantente al día con los lanzamientos, innovaciones mecánicas y pruebas en circuito más destacadas.</p>
+</div>
+<div class="grid-noticias">
+<!-- Noticia 1 -->
+<article class="tarjeta-noticia">
+<div class="tarjeta-imagen-wrapper">
+<img alt="Exotic futuristic supercar hypercar in dark studio with red and silver ambient rim lighting, sleek aerodynamic profile" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-g-RI6_3f9OBNkY4HPYQNDOU_XJpO_yRg0_Aldyl20S-UKZLimoe2q7nognaOjpUDEIDsUORoJNg9Hxke6IW1R4GTgzidgYIJZeihze5GcMAdJy6Q9bRguxka9paoIAYbilwEWgN9vsyYU09NdkuCq7mVhK9fNxm6zhjLeMw93TfMh-hHzmTBvV4oKPSJrRlBWuDcKVYy-rims9SeQwqjtrfQZe7ylWHGkbZwlptXNylnImj5oUzC"/>
+</div>
+<div class="tarjeta-noticia-cuerpo">
+<time class="noticia-fecha" datetime="2025-05-10">10 Mayo, 2025</time>
+<h3>La nueva era de los hiperdeportivos eléctricos e híbridos</h3>
+<p>Los ingenieros rompen la barrera de los 2.000 CV con trenes motrices electrificados que redefinen por completo la física en pista.</p>
+<a class="boton-noticia" href="#contacto">Leer más →</a>
+</div>
+</article>
+<!-- Noticia 2 -->
+<article class="tarjeta-noticia">
+<div class="tarjeta-imagen-wrapper">
+<img alt="Modern sports coupe car BMW style driving on asphalt track, dynamic angle, dramatic lighting, clean automotive photography" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAGm7r31qWzElN93z_xdgm5eYSbgMGt6yMPg-zU_iWX5Xjc3GptOQkvHcv4HsrOEs0YWg0WxKCxLb3TpuEDio8d8s1aqDSVp0k0GIL-MM0euy66bUaP_JEqhL-ae__VyFkxi1oqOWajuYgSKWHIFC5_Hqa5w-K1msgElDNC5pAbw8HuRSlDvgRh4Dm6X1ih2xjRP2j5YdLZ486B9Tq7ZFE363WoxXFSTN_yvN22Xgxp-iIKZx3jQuf6"/>
+</div>
+<div class="tarjeta-noticia-cuerpo">
+<time class="noticia-fecha" datetime="2025-05-06">06 Mayo, 2025</time>
+<h3>Prueba a fondo en Nürburgring: Récord absoluto de vuelta rápida</h3>
+<p>Analizamos la telemetría del nuevo coupé deportivo que ha pulverizado el cronómetro oficial en el mítico Infierno Verde.</p>
+<a class="boton-noticia" href="#contacto">Leer más →</a>
+</div>
+</article>
+<!-- Noticia 3 -->
+<article class="tarjeta-noticia">
+<div class="tarjeta-imagen-wrapper">
+<img alt="Sleek modern red luxury sports car speeding at night on a wet urban road with neon reflections, cinematic lighting, photorealistic, 4k" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB3N9-T-W4mBVsyND8PDgGi4ynGgBtWrR-kvIAOh3_YDGnhsWkEFONnDybFCHvd8Uvbpw-zZu-8rZE1U-KnejVo0_cFA1AOuu5DrDpTdGbRtCcR6UGuqA5t9cmDHjiQZ76UdjM5qUVG1UUdGbpffsD_ZPsEv9imVXj35S6Cnoaw0BnXamBem0Cn-L-1TpqXf58aDPQ1Gm9A8YOc6VQhMgbDdnn0JnbnSXo3AeiY_2yMqd4zH_4p5iOT"/>
+</div>
+<div class="tarjeta-noticia-cuerpo">
+<time class="noticia-fecha" datetime="2025-04-28">28 Abril, 2025</time>
+<h3>Tecnología de chasis activo y aerodinámica inteligente urbana</h3>
+<p>Cómo los nuevos algoritmos predictivos adaptan la suspensión y los alerones en milisegundos en condiciones de asfalto mojado.</p>
+<a class="boton-noticia" href="#contacto">Leer más →</a>
+</div>
+</article>
+</div>
+</section>
+<!-- END: NewsSection -->
+<!-- BEGIN: ContactSection -->
+<!-- Formulario de contacto con inputs estéticos y funcionales -->
+<section class="seccion seccion-oscura" data-purpose="contact-section" id="contacto">
+<div class="seccion-encabezado">
+<span class="seccion-subtitulo">Hablemos</span>
+<h2 class="seccion-titulo">Contacto</h2>
+<p class="seccion-descripcion">¿Tienes alguna consulta o deseas reservar una prueba de conducción? Escríbenos y te responderemos a la mayor brevedad.</p>
+</div>
+<div class="contenedor-contacto">
+<form action="#" method="POST">
+<div class="grupo-formulario">
+<label for="nombre">Nombre completo</label>
+<input class="control-formulario" id="nombre" name="nombre" placeholder="Ej. Carlos Sainz" required="" type="text"/>
+</div>
+<div class="grupo-formulario">
+<label for="email">Correo electrónico</label>
+<input class="control-formulario" id="email" name="email" placeholder="nombre@correo.com" required="" type="email"/>
+</div>
+<div class="grupo-formulario">
+<label for="mensaje">Mensaje</label>
+<textarea class="control-formulario" id="mensaje" name="mensaje" placeholder="Escribe aquí tu consulta o modelo sobre el que deseas información..." required=""></textarea>
+</div>
+<button class="boton-primario" style="width: 100%;" type="submit">Enviar mensaje</button>
+</form>
+</div>
+</section>
+<!-- END: ContactSection -->
+</main>
+<!-- BEGIN: MainFooter -->
+<!-- Pie de página con enlaces institucionales, redes sociales y copyright -->
+<footer class="footer-principal" data-purpose="main-footer">
+<div class="footer-contenedor">
+<div class="footer-info">
+<div class="logo-contenedor">
+<span class="logo-marca">CAR<span>ZONE</span></span>
+<span class="logo-eslogan">Pasión por los coches</span>
+</div>
+<p>Tu portal de referencia para el análisis, actualidad, catálogo y pasión por los vehículos más extraordinarios del planeta.</p>
+</div>
+<div class="footer-columna">
+<h4>Enlaces rápidos</h4>
+<ul class="footer-enlaces">
+<li><a href="#inicio">Inicio</a></li>
+<li><a href="#que-buscas">¿Qué buscas?</a></li>
+<li><a href="#coches">Coches destacados</a></li>
+<li><a href="#marcas">Marcas populares</a></li>
+<li><a href="#noticias">Noticias del motor</a></li>
+</ul>
+</div>
+<div class="footer-columna">
+<h4>Síguenos</h4>
+<div class="footer-redes">
+<a aria-label="YouTube" class="red-icono" href="#">
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
+</a>
+<a aria-label="Instagram" class="red-icono" href="#">
+<svg fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="18"><rect height="20" rx="5" ry="5" width="20" x="2" y="2"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+</a>
+<a aria-label="Twitter / X" class="red-icono" href="#">
+<svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg>
+</a>
+</div>
+</div>
+</div>
+<div class="footer-inferior">
+<p>© 2025 CARZONE. Pasión por los coches. Proyecto desarrollado para 1º de DAW. Todos los derechos reservados.</p>
+</div>
+</footer>
+<!-- END: MainFooter -->
+<!-- Enlace al archivo script.js externo especificado -->
+<script src="script.js"></script>
+</body>
+</html>
