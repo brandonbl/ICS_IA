@@ -1,0 +1,31 @@
+1. ¿En qué archivo está el punto de entrada de la aplicación? ¿Qué hace la función `createRoot`?
+    El punto de entrada de la aplicación está en src/main.jsx. La función createRoot crea la raíz de React y permite renderizar la aplicación dentro de un elemento HTML.
+
+2. ¿Cuál es el ID del elemento HTML donde se monta la aplicación? ¿En qué archivo está definido?
+    La aplicación se monta en el elemento <div id="root"></div>, que está definido en index.html. En main.jsx, React busca este elemento mediante document.getElementById('root').
+
+3. Dibuja el árbol de componentes que se renderiza al arrancar el proyecto recién creado.
+    root
+        └── StrictMode
+            └── App
+
+4. ¿Qué ocurre en la página si eliminas `<StrictMode>` de `main.jsx`? ¿Y en la consola en modo desarrollo?
+    Al eliminar <StrictMode>, la aplicación sigue funcionando y la página se muestra normalmente. En desarrollo desaparecen algunas comprobaciones adicionales que React realiza para detectar posibles problemas.
+
+5. Abre `App.jsx` y localiza tres fragmentos de código JavaScript escritos entre llaves `{ }` dentro del JSX. Explica qué hace cada uno.
+    {count}
+
+Se encuentra dentro del botón:
+Count is {count}
+Muestra en la página el valor actual de la variable count.
+{() => setCount((count) => count + 1)}
+Se encuentra en:
+onClick={() => setCount((count) => count + 1)}
+Define la función que se ejecuta cuando hacemos clic en el botón. Aumenta el valor de count en 1.
+{reactLogo} y {viteLogo}
+Por ejemplo:
+<img src={reactLogo} ... />
+Las llaves permiten utilizar la variable reactLogo dentro del JSX para indicar la imagen que debe cargar el elemento <img>. Lo mismo ocurre con viteLogo.
+
+6. ¿Qué es el elemento `<>` que envuelve el JSX devuelto por `App`? ¿Genera algún elemento en el DOM? Compruébalo con las herramientas de desarrollo del navegador (pestaña *Elementos*).
+<>...</> es un Fragment de React que permite agrupar varios elementos JSX sin crear un elemento adicional en el DOM.
