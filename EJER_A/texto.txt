@@ -1,0 +1,4 @@
+¿Por qué pendiente no tiene un tipo útil?
+Porque no le hemos asignado ningún valor ni indicado su tipo. 
+TypeScript puede tratarla como any en este caso, 
+por lo que permite asignarle valores de distintos tipos sin controlarlos.
